@@ -79,7 +79,7 @@ wasn't so bad, was it?
 
 #### The `Memorable` Module
 
-Let's define our module. Create a `concerns` folder inside `lib`. This is where
+<!-- Let's define our module. Create a `concerns` folder inside `lib`. This is where
 we'll store our modules. It is a common practice to create a folder called
 `concerns` that holds modules that will be used across classes in an object
 oriented Ruby project.
@@ -109,11 +109,11 @@ the method as a class method vs. an instance method (which would use the
 Now you're ready to run your test suite again. Get all those tests back to
 passing before you move on. Once your tests are passing, make sure you delete
 the commented-out `reset_all` and `count` class methods from your `Song` and
-`Artist` class. You don't need them anymore.
+`Artist` class. You don't need them anymore. -->
 
 #### Advanced: The `find_by_name` Method
 
-Before we build the module to house this method, let's talk a bit about it. In
+<!-- Before we build the module to house this method, let's talk a bit about it. In
 an upcoming unit, we'll be introducing databases. You'll learn how to connect
 your Ruby programs to a database and use that database to store
 information––even Ruby objects! Moving forward through this course, you'll be
@@ -212,7 +212,7 @@ method from the `Song` and `Artist` classes.
 
 Important! Remember to add `require_relative '../lib/concerns/paramable'` to
 your environment file before running any tests. We've already provided that
-line for you in fact! All you have to do is un-comment it out. :)
+line for you in fact! All you have to do is un-comment it out. :) -->
 
 #### Advanced: The `to_param` Method
 
